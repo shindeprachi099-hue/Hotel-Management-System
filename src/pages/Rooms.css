@@ -1,0 +1,44 @@
+.rooms-wrapper {
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.rooms-wrapper h1 {
+  margin-bottom: 30px;
+  color: #1e293b;
+}
+
+.room-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 20px;
+}
+
+/* Room Card Base */
+.room-card {
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Available = Green */
+.available {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+/* Booked = Red */
+.booked {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+}
+
+/* Hover Effect */
+.room-card:hover {
+  transform: scale(1.05);
+}

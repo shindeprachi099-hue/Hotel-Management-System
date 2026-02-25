@@ -1,0 +1,111 @@
+/* Body / Page Background */
+.booking-container {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  padding: 40px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
+  color: #f8fafc;
+  text-align: center;
+}
+
+/* Page Title */
+.booking-container h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #e3e4e6;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Form Card (Glassmorphism Style) */
+.form-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  display: inline-block;
+  min-width: 300px;
+}
+
+/* Form Inputs */
+.form-card input,
+.form-card select {
+  padding: 10px 12px;
+  margin: 8px 5px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fafafa;
+  font-weight: 500;
+}
+
+.form-card input::placeholder {
+  color: #585858;
+}
+
+/* Form Button */
+.form-card button {
+  padding: 10px 18px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #3b82f6;
+  color: rgb(231, 230, 230);
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.form-card button:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+}
+
+/* Table Styling */
+.booking-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.booking-table th,
+.booking-table td {
+  padding: 12px 15px;
+  text-align: center;
+  color: #f8fafc;
+  font-weight: 500;
+}
+
+.booking-table thead {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.booking-table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.booking-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Delete Button */
+.delete-btn {
+  padding: 6px 12px;
+  background: #ef4444;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+  transform: translateY(-2px);
+}
